@@ -5,7 +5,10 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iAgeTest", "iAgeTest\iAgeTest.csproj", "{766BF6E6-896C-4CA7-82D6-3796CE8FE4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iAgeTest.Tests", "iAgeTest.Tests\iAgeTest.Tests.csproj", "{1174C08E-19F7-4A6C-9E03-6177CD1103EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iAgeTest.Tests", "iAgeTest.Tests\iAgeTest.Tests.csproj", "{1174C08E-19F7-4A6C-9E03-6177CD1103EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{766BF6E6-896C-4CA7-82D6-3796CE8FE4F7} = {766BF6E6-896C-4CA7-82D6-3796CE8FE4F7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
